@@ -3,7 +3,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-// عشان الايقونة تظهر صح في React Leaflet نضبطها
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
@@ -30,7 +29,6 @@ const WorldMap = () => {
         <Marker position={[31.95, 35.9]}>
           <Popup>عمان، الأردن</Popup>
         </Marker>
-        {/* تقدر تضيف ماركرات إضافية حسب بياناتك */}
       </MapContainer>
     </div>
   );

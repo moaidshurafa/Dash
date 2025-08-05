@@ -21,7 +21,7 @@ const DashboardLayout = () => {
       <aside className="w-64 bg-slate-900 text-white p-4 flex flex-col justify-between h-screen">
         <div>
           <h1 className="text-2xl font-bold text-cyan-400">
-            Blur<span className="text-white">Admin</span>
+            Dash<span className="text-white">Board</span>
           </h1>
 
           <nav className="mt-6 space-y-2">
