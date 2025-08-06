@@ -13,7 +13,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-6">
         <StatBox title="New Visits" value="57,820" percent="70%" />
         <StatBox title="Purchases" value="$89,745" percent="71%" />
         <StatBox title="Active Users" value="178,391" percent="77%" />
