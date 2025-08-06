@@ -9,6 +9,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import AdminPanel from "./components/AdminPanel";
 import DashboardLayout from "./components/DashboardLayout";
+import { Navigate } from "react-router-dom";
 
 const App = () => {
   return (
@@ -61,14 +62,7 @@ const App = () => {
             />
           </Route>
 
-          <Route
-            path="/"
-            element={
-              <ProtectedRoute>
-                <Home />
-              </ProtectedRoute>
-            }
-          />
+          <Route path="/" element={<Navigate to="/home/dashboard" replace />} />
         </Routes>
       </Router>
     </AuthProvider>
