@@ -161,9 +161,7 @@ const DashboardLayout = () => {
               <div className="text-sm font-medium text-white">
                 {user?.username}
               </div>
-              <div className="text-xs text-gray-200 capitalize">
-                {user?.role}
-              </div>
+              
             </div>
             <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center text-lg font-bold uppercase">
               {user?.username?.charAt(0) || "U"}
